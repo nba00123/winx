@@ -13,6 +13,14 @@ package winx.liteMvc
 		{
 			
 		}
+		public function toMap():String
+		{
+			var s:String = "";
+			for (var type:String in dict) {
+				s += "type:"+type+" funs:" + dict[type] + "\n";
+			}
+			return s;
+		}
 		public function add(type:String,fun:Function):void
 		{
 			if (!dict[type]) dict[type] = [];

@@ -1,5 +1,6 @@
 package winx.liteMvc 
 {
+	import winx.utils.debug;
 	/**
 	 * ...
 	 * @author nba00123
@@ -14,6 +15,7 @@ package winx.liteMvc
 		}
 		public function addLoad(load:PartLoad):void
 		{
+			debug("add part:" + load);
 			load.dict = dict;
 			load.man = this;
 			load.init();
