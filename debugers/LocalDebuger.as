@@ -29,12 +29,12 @@ package winx.debugers
 		
 		private function statusEventHd(e:StatusEvent):void 
 		{
-			trace(e)
+			//trace(e)
 		}
 		
 		private function errHd(e:AsyncErrorEvent):void 
 		{
-			trace(e);
+			//trace(e);
 		}
 		
 		private function connect():void 
