@@ -1,4 +1,4 @@
-![wos workflow](https://github.com/nba00123/wos/actions/workflows/Rust.yml/badge.svg)
+![wos workflow](https://github.com/nba00123/wos/actions/workflows/wasm-rust.yml/badge.svg)
 winx
 ====
 
